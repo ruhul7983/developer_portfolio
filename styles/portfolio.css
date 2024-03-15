@@ -93,7 +93,8 @@ nav > ul > li > a{
 
 /* main section styles */
 main{
-    margin: 0 230px;
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
 /* about section styles */
@@ -107,4 +108,26 @@ main{
     color: #a7a5a2;
     font-size: 18px;
     text-align: center;
+}
+
+.about-info-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-info{
+}
+
+.info-title{
+    color: #a7a5a2;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 0;
+
+}
+.info-description{
+    font-size: 17px;
+    text-align: center;
+    margin-top: 5px;
+    font-weight: bold;
 }
