@@ -144,9 +144,7 @@ main {
 }
 
 /* What I do Section */
-#what-i-do-des {
-    padding: 30px 150px;
-}
+
 
 .skill-container {
     display: flex;
@@ -232,4 +230,22 @@ footer{
     border-radius: 5px;
     border: 0;
     width: 100%;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width:576px) {
+    .skill-container{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .section-des{
+        padding: 0;
+    }
+
+    .resume-container{
+        flex-direction: column-reverse;
+    }
 }
